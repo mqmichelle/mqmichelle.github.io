@@ -52,7 +52,7 @@ let driftStrength = 0.018;
 let jitterReverse = 0.12;
 
 // title position: keep centered, but at the poster's original upper area
-let titleCenterY = canvasH * 0.30;
+let titleCenterY = windowHeight * 0.30;
 
 // body text opacity
 let infoAlpha = 180;
