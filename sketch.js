@@ -52,7 +52,7 @@ let driftStrength = 0.018;
 let jitterReverse = 0.12;
 
 // title position: keep centered, but at the poster's original upper area
-let titleCenterY = windowHeight * 0.30;
+let titleCenterY;
 
 // body text opacity
 let infoAlpha = 180;
@@ -65,6 +65,8 @@ function setup() {
   // createCanvas(canvasW, canvasH);
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1);
+
+  titleCenterY = height * 0.3;
 
   tileCount = tileCountX * tileCountY;
   tileW = width / tileCountX;
